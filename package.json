@@ -1,0 +1,32 @@
+{
+  "name": "pagecraft",
+  "version": "1.0.0",
+  "description": "Small in-memory helpers for pagination, sorting, filtering, searching, and query validation.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SammyBanner45/PageCraft.git"
+  },
+  "homepage": "https://github.com/SammyBanner45/PageCraft#readme",
+  "bugs": {
+    "url": "https://github.com/SammyBanner45/PageCraft/issues"
+  },
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "test:watch": "node --test --watch"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "keywords": ["pagination", "sorting", "filtering", "search", "query"]
+}
